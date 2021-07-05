@@ -1,0 +1,59 @@
+<html>
+  <div id="head-container">
+  <head id="head">
+      <link href= "./style.css" rel = "stylesheet" type = "text/css">
+    <h1 id="title">
+      Equipment Loan Rate Estimator
+    </h1>
+    <div id="p-element"><p id="description" background-color: hsl(179, 48%, 70%)>This form will help you estimate loan rates. To get final rates, please apply for financing through your account manager.
+    </p>
+    </div>
+  </head>
+  <body>
+    <div>
+            <form id="survey-form">
+              <label for="name" id="name-label"> Name 
+              <input id="name" type="text" placeholder="Enter your name (optional)">
+              </label>
+              <br>
+              <label for="email" id="email-label"> Email
+        <input id="email" type="email" required placeholder="Enter your email (required)">
+              </label>
+              <br>
+               <label for="number" id="number-label"> Time in business
+        <input id="number" type="number" required min="01" max="99" placeholder="TIB Years">
+                 </label>
+              <br>
+              <label for="dropdown" id="dropdown-label">Main Industry
+              <select name="dropdown" required id="dropdown">
+                <option value="" disabled selected hidden>Choose main industry</option>
+                <option value="Construction">Construction</option>
+                <option value="Transportation">Transportation</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Other">Other</option>
+              </select>
+                </label>
+              <br>
+              <label for="radio-buttons" id="radio-buttons">How many trucks do you have (if any)?
+                <br>
+                <input name="radio-buttons" id="0 trucks" value="o trucks" type="radio" checked>0 trucks
+                <br>
+                <input name="radio-buttons" id="1 truck" value="1 truck" type="radio">1 truck
+                <br>
+                <input name="radio-buttons" id="2 or more" value="2 or more" type="radio">2 or more
+                <br>
+                <div class="container">
+                    <div class="center">
+                <button id="submit" type="submit">Submit all</button>
+                    </div>
+                </div>
+      </form>
+    </div>
+      </div>
+  </body>
+ 
+  <footer>
+  </footer>
+
+  
+</html>
